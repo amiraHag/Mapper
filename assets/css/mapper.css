@@ -1,0 +1,113 @@
+/**
+*
+Update Product and External Link Table
+*
+
+**/
+#updateProductsForm {
+    display: none;
+}
+
+.mapper-icon {
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    margin: 10px;
+}
+
+.mapper-title {
+    display: flex;
+    margin: 10px;
+}
+.table-bordered {
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+    border-image: initial;
+    background: rgb(243, 243, 243);
+}
+
+.table-user-activities th {
+    text-align: center;
+    font-size: 18px;
+    padding: 10px;
+    border-width: 1px !important;
+    border-style: solid !important;
+    border-color: rgb(255, 255, 255) !important;
+    border-image: initial !important;
+}
+
+.table-user-activities td {
+    min-width: 100px;
+    padding: 10px;
+    border-width: 1px !important;
+    border-style: solid !important;
+    border-color: rgb(255, 255, 255) !important;
+    border-image: initial !important;
+}
+
+li.single-user-product {
+    text-align: center;
+    border-width: 1px;
+    border-style: solid;
+    border-color: initial;
+    border-image: initial;
+    padding: 2px;
+}
+
+/**
+*
+Update Product and External Link Form
+*
+
+**/
+.section-title {
+    font-weight: bold;
+}
+
+.chosen-container {
+    max-width: 400px;
+    width: 100% !important;
+}
+
+.row.products-form-section {
+    height: 70px;
+    margin: 30px 0px;
+}
+
+div#TextBoxesGroup div input {
+    margin-left: 20px;
+}
+
+input.form-button {
+    display: block;
+    min-width: 100px;
+}
+input.update.form-button, input.back.form-button {
+    margin-top: 20px;
+    display: inline-block;
+}
+input.back.form-button {
+    float: right;
+}
+div#TextBoxesGroup div {
+    margin-bottom: 20px;
+}
+
+/**
+*
+User and Product Insert Form
+*
+
+**/
+form.insert-form label, form.insert-form input {
+    display: block;
+}
+form.insert-form input{
+    margin-bottom:20px;
+}
+
+form.insert-form input[type="submit"] {
+    margin-top: 20px;
+    min-width: 200px;
+}

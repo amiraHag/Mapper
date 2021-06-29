@@ -1,0 +1,46 @@
+/*
+*
+ Style for the frontend user display
+*
+*/
+
+.users-activities {
+    max-width: 400px;
+    float: left;
+}
+.users-activities .row {
+    margin-bottom: 40px;
+    padding-bottom: 30px;
+    border-bottom: solid 1px #eee;
+}
+.mapper-user {
+    font-size: 20px;
+    font-weight: bold;
+}
+.mapper-time {
+    font-size: 14px;
+}
+.mapper-user-products .title, .mapper-user-links .title {
+    font-weight: bold;
+}
+.mapper-user-products, .mapper-user-links {
+    padding: 20px 0px 0px;
+}
+
+.mapper-user-products .mapper-user-product, .mapper-user-links .mapper-user-link {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    border: solid 1px;
+}
+.mapper-user-link {
+    background: #eee;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 10px;
+}
+.mapper-user-link img{
+    display: block;
+    margin: 10px;
+    width: 60px;
+}
