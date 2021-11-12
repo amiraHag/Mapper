@@ -1,6 +1,6 @@
 # Mapper
 
-### Mapper Wordpress Plugin (Assignment Hobo Video)
+### Mapper Wordpress Plugin 
 
 ## Introduction
 
@@ -50,6 +50,6 @@ Insert product page
 
 ## Future Work
 
-1. Add relation between product and external link (couldn't understand it from the Assignment file).
+1. Add relation between product and external link.
 2. Enhance the form for update the products to only allow the user from the products that not already assigned him.
 3. Add update and delete forms for the user, the product and the external link. 
